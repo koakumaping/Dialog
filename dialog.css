@@ -1,0 +1,114 @@
+.dialog_boundingBox {
+    font: 12px/1.2 'Microsoft Yahei', Tahoma, Helvetica, Arial, '\5b8b\4f53', sans-serif;
+    font-weight: normal;
+    position: fixed;
+    border: 1px solid #000;
+    /*left: 50%;*/
+    /*margin-left: -250px;*/
+    /*top: 100px;*/
+    box-shadow: 0 0 12px rgba(0,0,0,0.5);
+    background-color: white;
+    z-index: 8000;
+}
+
+.dialog_boundingBox .dialog_input {
+    height: 34px;
+    padding: 3px;
+    margin-top: 5px;
+}
+
+.dialog_boundingBox .dialog_input input {
+    width: 80%;
+    height: 26px;
+    border: 1px solid #cdcdcd;
+    border-radius: 0!important;
+}
+
+.dialog_boundingBox button.dialog_return {
+    height: 34px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 10px;
+}
+
+.dialog_boundingBox button.dialog_confirm {
+    height: 34px;
+    width: 80px;
+    position: absolute;
+    bottom: 10px;
+    left: 12%;
+    /* background-color: #333; */
+}
+
+.dialog_boundingBox button.dialog_prompt {
+    height: 34px;
+    width: 80px;
+    position: absolute;
+    bottom: 10px;
+    left: 12%;
+    /* background-color: #333; */
+}
+
+.dialog_boundingBox button.dialog_cancel {
+    height: 34px;
+    width: 80px;
+    position: absolute;
+    bottom: 10px;
+    right: 12%;
+    /* background-color: #333; */
+}
+
+.dialog_boundingBox button:hover {
+    background: #e5412d;
+}
+
+.dialog_boundingBox .dialog_header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.dialog_boundingBox .dialog_body {
+    /* padding: 10px; */
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.dialog_boundingBox .dialog_closeBtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px 10px;
+    font-size: 20px;
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.dialog_boundingBox .dialog_closeBtn:hover {
+    color: #e5412d;
+}
+
+#dialog_overlay {
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 7999;
+}
+
+
+/*Add new skin*/
